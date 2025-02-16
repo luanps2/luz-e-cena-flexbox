@@ -2,6 +2,8 @@
     margin: 0 auto;
     max-width: var(--max-width-block);
     padding: 0;
+    
+    
 }
 
 .nav__list {
@@ -12,7 +14,6 @@
     padding: var(--padding-s) 0;
     list-style-type: none;
     flex-wrap: wrap;
-    background-color: transparent;
 }
 
 .nav__link {
@@ -45,6 +46,10 @@
 .nav__icons{
     display: flex;
     gap: var(--gap-l);
+}
+
+#logo{
+    width: 12em;
 }
 
 /* .dark-mode {
@@ -84,7 +89,7 @@
     }
 
     .menu__toggle__icon{
-        background-color: transparent;
+        /* background-color: transparent; */
         border: none;
     }
 }

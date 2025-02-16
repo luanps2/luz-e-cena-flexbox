@@ -1,8 +1,6 @@
-![CSS Flex](https://imgur.com/ytMIIUO.png)
-
 # CSS Flexbox
 
-Página inicial do Luz e Cena.
+Página inicial do RetroMovie.
 
 ## 🔨 Funcionalidades do Projeto
 
@@ -33,7 +31,7 @@ Esses atributos são essenciais para criar um layout flexível, garantindo que a
 
 ## 📁 Acesso ao Projeto
 
-Você pode [acessar o código-fonte do projeto inicial](https://github.com/monicahillman/3992-css-grid/tree/projeto-base) ou [baixá-lo](https://github.com/monicahillman/3992-css-grid/archive/refs/heads/projeto-base.zip).
+Você pode [acessar o código-fonte do projeto original](https://github.com/monicahillman/3992-css-grid/tree/projeto-base) ou [baixá-lo](https://github.com/monicahillman/3992-css-grid/archive/refs/heads/projeto-base.zip).
 
 ## 🛠️ Como Abrir e Rodar o Projeto
 

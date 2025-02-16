@@ -28,11 +28,15 @@
     }
   
     .newsletter {
-      background-color: rgb(14, 14, 37);
+      background-color: var(--cor-de-fundo-newsletter-dark);
       
       .newsletter__titulo {
         color: var(--cor-texto-claro);
       }
+    }
+
+    .newsletter__titulo{
+      color: var(--cor-texto-claro);
     }
 
  

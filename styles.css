@@ -21,7 +21,7 @@
     --cor-texto-hover: #252530;
     --cor-texto-claro: #ffffff;
     --cor-texto-escuro: #1E1E1E;
-    --cor-texto-destaque: #6F99FF;
+    --cor-texto-destaque: #a81816;
     --cor-faixa-etaria: #F5D010;
     --cor-faixa-etaria-livre: #C3FF95;
 
@@ -29,7 +29,8 @@
     --cor-de-fundo-input: #EFEFEF;
     --cor-de-fundo: #ffffff;
     --cor-fundo-header: #fefefe;
-    --cor-de-fundo-newsletter: #CCDBFF;
+    --cor-de-fundo-newsletter: #a82825;
+    --cor-de-fundo-newsletter-dark: #571514;
     --cor-de-fundo-footer: #1E1E1E;
     --cor-de-fundo-combo: #111114;
 

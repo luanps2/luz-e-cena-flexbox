@@ -40,6 +40,6 @@ function darkMode() {
     const isDarkMode = pagina.classList.toggle("dark-mode");
     
     // Toggle usando operador ternário
-    logo.src = isDarkMode ? "./images/Logo-white.svg" : "./images/Logo.svg";
+    logo.src = isDarkMode ? "./images/logo-white.png" : "./images/logo.png";
     darkModeIcon.src = isDarkMode ? "./images/sun.svg" : "./images/moon.svg";
 }

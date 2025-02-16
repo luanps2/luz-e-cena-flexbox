@@ -1,8 +1,12 @@
 .banner {
   height: 60vh;
-  background-image: url("../images/Banner.png");
-  background-position: center;
+  background-image: url("../images/banner.png");
+  background-position: center
 
+}
+
+.banner>img{
+  filter: brightness(1%);
 }
 
 .banner__container {
