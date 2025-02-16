@@ -1,6 +1,7 @@
 .header {
     margin: 0 auto;
     max-width: var(--max-width-block);
+    padding: 0;
 }
 
 .nav__list {
@@ -11,6 +12,7 @@
     padding: var(--padding-s) 0;
     list-style-type: none;
     flex-wrap: wrap;
+    background-color: transparent;
 }
 
 .nav__link {
@@ -44,6 +46,11 @@
     display: flex;
     gap: var(--gap-l);
 }
+
+/* .dark-mode {
+    background-color: black;
+    color: white;
+  } */
 
 @media screen and (max-width:1200px){
     .nav__list{

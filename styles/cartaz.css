@@ -46,3 +46,20 @@
     line-height: var(--line-heigth-l);
     margin-bottom: var(--margin-l);
 }
+
+.filme-list__item{
+    transition: .3s ease-in-out;
+    border-radius: 0.75em;
+    & ,img{
+        border-radius: 0.75em;
+
+    }
+    &:hover{
+        scale: 1.05;
+        box-shadow: 10px 10px 5px #aaaaaa;
+    }
+    
+}
+
+
+

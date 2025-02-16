@@ -1,0 +1,194 @@
+/* ========== MENU HAMBURGER ========== */
+.menu__toggle__icon {
+    background: none;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .menu__toggle__icon:hover {
+    transform: scale(1.1);
+  }
+  
+  /* ========== MENU MOBILE ========== */
+  .mobile-menu {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 280px;
+    height: 100vh;
+    background: #ffffff;
+    box-shadow: 4px 0 15px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    transition: left 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .mobile-menu.active {
+    left: 0;
+  }
+  
+  .mobile-nav__list {
+    margin-top: 40px;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .mobile-nav__item {
+    margin-bottom: 20px;
+    opacity: 0;
+    transform: translateX(-20px);
+    transition: all 0.3s ease;
+  }
+  
+  .mobile-menu.active .mobile-nav__item {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+  .mobile-nav__item:nth-child(1) { transition-delay: 0.1s; }
+  .mobile-nav__item:nth-child(2) { transition-delay: 0.2s; }
+  .mobile-nav__item:nth-child(3) { transition-delay: 0.3s; }
+  
+  .mobile-nav__link {
+    color: #2d2d2d;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 12px 16px;
+    border-radius: 8px;
+    display: block;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  
+  .mobile-nav__link:hover {
+    background: #f8f8f8;
+    color: #e74c3c;
+    transform: translateX(8px);
+  }
+  
+  /* ========== OVERLAY ========== */
+  .mobile-menu-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 999;
+    display: none;
+    backdrop-filter: blur(3px);
+  }
+  
+  .mobile-menu-overlay.active {
+    display: block;
+    animation: fadeIn 0.3s ease;
+  }
+  
+  /* ========== BOTÃO FECHAR ========== */
+  .mobile-menu__close {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background: none;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .mobile-menu__close:hover {
+    transform: rotate(90deg);
+  }
+  
+  .mobile-menu__close img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  /* ========== ANIMAÇÕES ========== */
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  /* ========== HEADER ORIGINAL ========== */
+  .header {
+    background: #ffffff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 1001;
+  }
+  
+  /* ========== RESPONSIVIDADE ========== */
+  @media (max-width: 768px) {
+    .nav__item:not(:first-child):not(:last-child) {
+      display: none;
+    }
+    
+    .mobile-menu {
+      width: 75%;
+    }
+    
+    .mobile-nav__link {
+      font-size: 1rem;
+    }
+  }
+
+  
+/* Esconder o menu hamburger em desktop */
+.menu__toggle {
+    display: none;
+  }
+  
+  /* Estilos do menu móvel */
+  .mobile-menu {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 80%;
+    height: 100vh;
+    background: var(--cor-de-fundo-input);
+    z-index: 1000;
+    transition: left 0.3s ease;
+  }
+  
+  .mobile-menu.active {
+    left: 0;
+  }
+  
+  /* Overlay para fundo escuro */
+  .mobile-menu-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: var(--cor-texto);
+    z-index: 999;
+    display: none;
+  }
+  
+  .mobile-menu-overlay.active {
+    display: block;
+  }
+  
+  /* Responsividade - Mostrar hamburger em mobile */
+  @media (max-width: 768px) {
+    .menu__toggle {
+      display: block;
+    }
+  
+    .nav__item:not(:first-child):not(:last-child) {
+      display: none;
+    }
+  }
+
+  #darkMode{
+    width: 25px;
+  }

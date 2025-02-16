@@ -19,10 +19,25 @@
   <link rel="stylesheet" href="./styles/newsletter.css" />
   <link rel="stylesheet" href="./styles/separador.css" />
   <link rel="stylesheet" href="./styles/footer.css" />
+  <link rel="stylesheet" href="./styles/menu-mobile.css" />
+  <link rel="stylesheet" href="./styles/darkmode.css" />
+  
 </head>
 
 <body>
   <header class="header">
+
+    <!-- menu mobile -->
+    <div class="mobile-menu">
+      <nav class="mobile-nav">
+        <ul class="mobile-nav__list">
+          <li class="mobile-nav__item"><a href="#" class="mobile-nav__link">Evento</a></li>
+          <li class="mobile-nav__item"><a href="#" class="mobile-nav__link">Clube fidelidade</a></li>
+          <li class="mobile-nav__item"><a href="#" class="mobile-nav__link">Sobre nós</a></li>
+        </ul>
+      </nav>
+    </div>
+
     <nav class="nav" aria-label="navegação principal">
       <ul class="nav__list">
 
@@ -35,15 +50,18 @@
         <!-- li.nav__item -->
         <li class="nav__item">
           <a href="index.html">
-            <img src="./images/Logo.svg" alt="logo">
+            <img src="./images/Logo.svg" alt="logo" id="logo">
           </a>
         </li>
+
+     
 
         <!-- li.nav__item*3>a[href="#"]{Evento}.nav__link -->
 
         <li class="nav__item">
           <a href="#" class="nav__link">Evento</a>
         </li>
+
 
         <li class="nav__item">
           <a href="#" class="nav__link">Clube fidelidade</a>
@@ -61,7 +79,12 @@
         </li>
 
         <!-- li.nav__item.nav__icons>(a[href="#" aria-label="carrinho de compras"]>img[src="./images/Carrinho.svg" alt="carrinho"])+(a[href="#" aria-label="perfil"]>img[src="./images/Perfil.svg" alt="meu perfil"]) -->
+       
+       
         <li class="nav__item nav__icons">
+          <a href="#" aria-label="dark mode"  onclick="darkMode()">
+            <img src="./images/moon.svg" alt="darkmode" id="darkMode">
+          </a>
           <a href="#" aria-label="carrinho de compras">
             <img src="./images/Carrinho.svg" alt="carrinho">
           </a>
@@ -72,6 +95,7 @@
       </ul>
     </nav>
   </header>
+
   <!-- section.banner>div.banner__container>h2.banner__titulo{Onde a realidade encontra a fantasia} -->
   <section class="banner">
     <div class="banner__container">
@@ -80,7 +104,6 @@
       </h2>
     </div>
   </section>
-
 
   <!-- section.cartaz>ul.menu-list[role="tablist" aria-label="navegação de categorias"]>li.menu.list__item.menu-list__item-ativo[role="tab" aria-label-selected="true"]{Em cartaz}+li.menu.list__item.menu-list__item-ativo[role="tab" aria-label-selected="true"]{Em breve} -->
   <section class="cartaz">
@@ -396,7 +419,7 @@
 
     </div>
   </footer>
-
+  <script src="./js/scripts.js"></script> <!-- Adicione "defer" -->
 </body>
 
 </html

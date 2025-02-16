@@ -20,6 +20,7 @@
     --cor-texto: #1e1e1e;
     --cor-texto-hover: #252530;
     --cor-texto-claro: #ffffff;
+    --cor-texto-escuro: #1E1E1E;
     --cor-texto-destaque: #6F99FF;
     --cor-faixa-etaria: #F5D010;
     --cor-faixa-etaria-livre: #C3FF95;
@@ -27,9 +28,12 @@
     --cor-de-fundo-faixa-etaria: #EFEFEF;
     --cor-de-fundo-input: #EFEFEF;
     --cor-de-fundo: #ffffff;
+    --cor-fundo-header: #fefefe;
     --cor-de-fundo-newsletter: #CCDBFF;
     --cor-de-fundo-footer: #1E1E1E;
     --cor-de-fundo-combo: #111114;
+
+    --cor-de-fundo-darkmode: #1E1E1E;
 
     --border-color: #A6A6A6;
     --box-shadow-card: 0px 4px 24px 0px #7B7B7B26;
@@ -59,19 +63,19 @@
 
     --max-width-block: 75rem;
 
-    
-        --margin-xs: 0.5rem;
-        --margin-s: 1rem;
-        --margin-m: 1.5rem;
-        --margin-l: 2rem;
 
-        --line-height-xs: 1.2rem;
-        --line-height-s: 1.5rem;
-        --line-height-m: 1.75rem;
-        --line-height-l: 2rem;
-        --line-height-xl: 2.5rem;
-        --line-height-xxl: 5.7rem;
-    
+    --margin-xs: 0.5rem;
+    --margin-s: 1rem;
+    --margin-m: 1.5rem;
+    --margin-l: 2rem;
+
+    --line-height-xs: 1.2rem;
+    --line-height-s: 1.5rem;
+    --line-height-m: 1.75rem;
+    --line-height-l: 2rem;
+    --line-height-xl: 2.5rem;
+    --line-height-xxl: 5.7rem;
+
 
 }
 

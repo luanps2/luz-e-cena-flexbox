@@ -1,0 +1,40 @@
+.dark-mode {
+    &, & header {
+      background-color: var(--cor-texto);
+      color: var(--cor-texto-claro);
+      
+      .nav__icons img:not(#darkMode),
+      .menu__toggle__icon img:not(#darkMode) {
+        filter: invert(1);
+      }
+    }
+  
+    .nav__link,
+    .mobile-nav__link {
+      color: #ffffff !important;
+    }
+  
+    .mobile-menu.active {
+      background-color: var(--cor-de-fundo-darkmode);
+    }
+  
+    .filme-list__descricao-dimensao {
+      background-color: #111114;
+   
+    }
+
+    .filme-list__descricao-idade, .filme-list__descricao-idade-livre{
+        color: var(--cor-texto-escuro);
+    }
+  
+    .newsletter {
+      background-color: rgb(14, 14, 37);
+      
+      .newsletter__titulo {
+        color: var(--cor-texto-claro);
+      }
+    }
+
+ 
+  }
+
